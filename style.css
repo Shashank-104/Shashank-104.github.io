@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(238, 194, 165);
+    align-items: center;
+    margin: auto;
+    font-family: monospace;
+    font-weight: 600;
+}
+#logo img{
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+}
+#contact,#project,#about{
+    padding-top: 13vh;
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    font-size: 2vw;
+}
+#contact,#project,#about p{
+    color: rgb(58, 50, 47);
+}#contact,#project,#about h1,a{
+    color: rgb(41, 37, 36);
+}
+/* navigation bar */
+#nav{
+    background-color: rgb(228, 90, 49);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+#nav ul{
+    list-style-type: none;
+    display: inline;
+}
+#nav li a{
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    text-align: center;
+    height: 1vw;
+    float: left;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+    color: rgb(57, 36, 28);
+}
+#nav li a:hover{
+    color: rgb(193, 192, 192);
+}
+#contact,#project{
+    height: 100vh;
+}
+.social{
+    font-size: 10vw;
+    padding-top: 24vh;
+}
+.social i{
+    color: black;
+    transition: 0.3s;
+}
+.social i:hover{
+    color:rgb(67, 67, 67);
+}
+#project a{
+    text-decoration: none;
+    transition: 0.3s;
+}
+#project a:hover{
+    color: rgb(99, 99, 99);
+}
